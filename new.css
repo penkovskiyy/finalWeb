@@ -257,7 +257,22 @@ nav
 }
 
 
-
+.col_fourth{
+  width: 23.5%;
+}
+.col_fourth{
+  
+  body{
+      font-family: Arial;
+      padding: 25px;
+      background-color: #f5f5f5;
+      color: #808080;
+      text-align: center;
+  }
+  .col_fourth{
+      width: 23.5%;
+  }
+}
 
 
 
