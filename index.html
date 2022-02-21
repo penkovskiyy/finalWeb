@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script scr="app.js"></script> 
   <link rel="stylesheet" href="style.css">
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="shortcut icon" type="image/png" href="pictures\icon.ico"/>
@@ -21,8 +23,7 @@
 </head>
 <body>
  
-  <script src="/assets/js/jquery-3.5.1.min.js"></script>
-  <script scr="app.js"></script> 
+  
 <div id="pseudo-wrap"></div>
 <a href="index.html">
 <div id="wrap">
@@ -44,8 +45,15 @@
     <a class="navbar-brand" href="#" style="color: white; font-size: 28px; font-family: 'Dongle', sans-serif;"><b>Forum</b></a>
   </div>
   <div class="btn-hrf">
-    <a class="navbar-brand" href="#" style="color: white; font-size: 28px; font-family: 'Dongle', sans-serif;"><b>FAQ</b></a>
+    <a id="faq" onclick="playAudio()" class="navbar-brand" href="#" style="color: white; font-size: 28px; font-family: 'Dongle', sans-serif;"><b>FAQ</b></a>
   </div>
+  <script type="text/javascript"> 
+    function playAudio(){ 
+       var myAudio = new Audio; 
+       myAudio.src = "win31.mp3"; 
+       myAudio.play(); 
+    } 
+ </script>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 log-reg">
         <li class="nav-item1">

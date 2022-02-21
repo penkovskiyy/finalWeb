@@ -24,8 +24,12 @@
     background: #fff;
     padding: 20px 0;
     border-radius: 5px;
+    
 
-
+}
+.count{
+    position:  relative; 
+    left: 38%;
 }
 .count-text{
     font-size: 13px;
@@ -33,6 +37,8 @@
     margin-top: 10 px;
     margin-bottom: 0;
     text-align: center;
+    position:  relative; 
+    left: 20%;
 
 }
 .fa-2x{
@@ -40,4 +46,6 @@
     float: none;
     display: table;
     color: #4ad1e5;
+    position:  relative; 
+    left: 40%;
 }
