@@ -274,7 +274,11 @@ nav
   }
 }
 
-
+#copyright-footer a
+{
+  position: relative;
+  right: 95git 0px;
+}
 
 
 
